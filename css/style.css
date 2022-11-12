@@ -44,15 +44,15 @@ header ul li:hover {
   background-position: center center;
 }
 
-/* øur-Features ////////////////////////////////////*/
+/* My-Features ////////////////////////////////////*/
 
-.our-Features .container {
+.My-Features .container {
   width: 80%;
   margin: auto;
 }
-.our-Features .container h2 {
+.My-Features .container h2 {
   text-align: center;
-  margin: 15px 0;
+  margin: 50px 0;
   color: #c20700;
 }
 .features {
@@ -95,24 +95,26 @@ header ul li:hover {
 }
 #Content h1 {
   color: #c20700;
+  margin: 60px 0 25px 0;
 }
 #Content p {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 #Content img {
   width: 300px;
   height: 300px;
+  margin: 0 5px;
 }
 
-/* Contact-Us ////////////////////////////////////*/
+/* Contact-me ////////////////////////////////////*/
 
-#Contact-Us {
+#Contact-me {
   margin-top: 50px;
   margin-bottom: 100px;
 }
 
-#Contact-Us .Contact-Form {
+#Contact-me .Contact-Form {
   width: 600px;
   margin: auto;
   background-color: white;
@@ -140,7 +142,7 @@ header ul li:hover {
   border-radius: 5px;
 }
 
-button {
+.Contact-Form button {
   background-color: #c20700;
   color: #e5d0b9;
   width: 220px;
@@ -151,12 +153,18 @@ button {
   font-weight: bold;
 }
 
+.Contact-Form button:hover {
+  transform: scale(1.05);
+}
 /* Footer ////////////////////////////////////*/
 
 .inner-footer ul li {
   padding: 0;
 }
 
+.inner-footer i {
+  font-size: 20px;
+}
 .inner-footer i:hover {
-  transform: scale(1.25);
+  transform: scale(1.3);
 }
